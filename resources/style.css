@@ -1,0 +1,131 @@
+body {
+  font-size: 18px;
+  font-family: Helvetica;
+}
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  color: white;
+  font-size: 1rem;
+}
+.logo img {
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+.logo span {
+  margin: 0.66rem 0rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.main-banner {
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-size: cover;
+}
+.size {
+  width: 960px;
+}
+.banner-text {
+  background-color: black;
+  width: 20rem;
+  color: white;
+  position: relative;
+  top: 9rem;
+  padding: 2rem 0 2rem 3rem;
+  font-weight: bold;
+}
+.banner-text h5 {
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+.banner-text h1 {
+  font-size: 2rem;
+  padding: 0px;
+}
+
+.menu {
+  background-color: firebrick;
+  color: white;
+  padding: 0.75rem 0;
+}
+.menu .size {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-grid {
+  justify-content: center;
+  margin: 3rem 0;
+}
+.product-grid .size {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  border: 4px solid black;
+  width: 30%;
+}
+.product-image {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+.product-image img {
+  height: 9rem;
+  margin: auto 0;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.right .product-image img {
+  height: 7rem;
+  width: auto;
+}
+.subheading {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+.info .size{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location, .hours {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+.info .subheading {
+  display: flex;
+  justify-content: flex-start;
+}
+.info .subheading span {
+  margin: 1rem 0 1rem 2rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  background-color: black
+}
+footer span {
+  color: white;
+}
